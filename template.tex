@@ -1,0 +1,130 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%% En tête du document %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[a4paper]{article}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%% Packages
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{array}
+\usepackage{graphicx}
+\usepackage{background}
+\usepackage[nohead, nomarginpar, margin=0in, foot=0in]{geometry}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%% Config
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\SetBgScale{1}
+\SetBgAngle{0}
+\SetBgColor{black}
+\SetBgContents{\rule{.4pt}{\paperheight}}
+\SetBgHshift{0cm}
+
+\def\heightImage{14.65cm}
+\def\widthImage{10.2cm}
+\def\topMargin{0.1cm}
+\def\leftMargin{-0.4cm}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%% Spécifications
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\def\josekiProblemA{joseki/two_space_shimari/erreur_noir/erreur_noir.pdf}
+\def\josekiSolutionA{joseki/two_space_shimari/erreur_noir/erreur_noir_R.pdf}
+
+\def\josekiProblemB{joseki/two_space_shimari/hane_dessous/hane_dessous.pdf}
+\def\josekiSolutionB{joseki/two_space_shimari/hane_dessous/hane_dessous_R.pdf}
+
+\def\josekiProblemC{joseki/two_space_shimari/hane_dessous_sacrifice/hane_dessous_sacrifice.pdf}
+\def\josekiSolutionC{joseki/two_space_shimari/hane_dessous_sacrifice/hane_dessous_sacrifice_R.pdf}
+
+\def\josekiProblemD{joseki/two_space_shimari/hane_dessous_combat/hane_dessous_combat.pdf}
+\def\josekiSolutionD{joseki/two_space_shimari/hane_dessous_combat/hane_dessous_combat_R.pdf}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%% Début du document %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+\pagestyle{empty}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%% Recto -- Problème
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%
+%%%%% Joseki 1
+%%%%%%%%%%%%%%%
+\hspace{\leftMargin}\begin{minipage}{0.4\linewidth}
+  \vspace{\topMargin}\includegraphics[height=\heightImage,width=\widthImage]{\josekiProblemA}
+\end{minipage}
+\hspace{0.12\linewidth}
+%%%%%%%%%%%%%%%
+%%%%% Joseki 2
+%%%%%%%%%%%%%%%
+\begin{minipage}{0.4\linewidth}
+  \vspace{\topMargin}\hspace{-0.7cm} \includegraphics[height=\heightImage,width=\widthImage]{\josekiProblemB}  
+\end{minipage}
+
+\vspace{0.1cm}
+
+\hrule
+
+%\vspace{0.1cm}
+
+%%%%%%%%%%%%%%%
+%%%%% Joseki 3
+%%%%%%%%%%%%%%%
+\hspace{\leftMargin}\begin{minipage}{0.4\linewidth}
+  \vspace{\topMargin}\includegraphics[height=\heightImage,width=\widthImage]{\josekiProblemC}
+\end{minipage}
+\hspace{0.12\linewidth}
+%%%%%%%%%%%%%%%
+%%%%% Joseki 4
+%%%%%%%%%%%%%%%
+\begin{minipage}{0.4\linewidth}
+  \vspace{\topMargin}\hspace{-0.7cm} \includegraphics[height=\heightImage,width=\widthImage]{\josekiProblemD}  
+\end{minipage}
+
+\newpage 
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%% Verso -- Solution
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%
+%%%%% Joseki 1
+%%%%%%%%%%%%%%%
+\hspace{\leftMargin}\begin{minipage}{0.4\linewidth}
+  \vspace{\topMargin}\includegraphics[height=\heightImage,width=\widthImage]{\josekiSolutionA}
+\end{minipage}
+\hspace{0.12\linewidth}
+%%%%%%%%%%%%%%%
+%%%%% Joseki 2
+%%%%%%%%%%%%%%%
+\begin{minipage}{0.4\linewidth}
+  \vspace{\topMargin}\hspace{-0.7cm} \includegraphics[height=\heightImage,width=\widthImage]{\josekiSolutionB}  
+\end{minipage}
+
+\vspace{0.1cm}
+
+\hrule
+
+%\vspace{0.1cm}
+
+%%%%%%%%%%%%%%%
+%%%%% Joseki 3
+%%%%%%%%%%%%%%%
+\hspace{\leftMargin}\begin{minipage}{0.4\linewidth}
+  \vspace{\topMargin}\includegraphics[height=\heightImage,width=\widthImage]{\josekiSolutionC}
+\end{minipage}
+\hspace{0.12\linewidth}
+%%%%%%%%%%%%%%%
+%%%%% Joseki 4
+%%%%%%%%%%%%%%%
+\begin{minipage}{0.4\linewidth}
+  \vspace{\topMargin}\hspace{-0.7cm} \includegraphics[height=\heightImage,width=\widthImage]{\josekiSolutionD}  
+\end{minipage}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%% Fin du document %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\end{document}

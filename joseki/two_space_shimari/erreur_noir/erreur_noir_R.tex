@@ -1,0 +1,32 @@
+\documentclass[preview, border=0pt, varwidth=false]{standalone}
+
+\usepackage[paperwidth=10.2cm, paperheight=14.65cm, margin=0cm]{geometry}
+\usepackage{psgo}
+
+\begin{document}
+	\setgounit{0.6cm} 
+	
+	\parbox[c][14.65cm][c]{10.2cm}{
+			\centering
+		\begin{psgopartialboard}{(1,1)(9,7)}
+			\stone{black}{c}{4}
+			\stone{black}{f}{4}
+			\stone{white}{h}{3}
+			\markpos{\marktr}{g}{2}
+			\pass
+			\move{d}{4}
+			\move{d}{3}
+			\move{e}{3}
+			\move{e}{4}
+			\move{d}{5}
+			\move{e}{2}
+			\move{c}{3}
+			\move{d}{2}
+			\move{c}{5}
+		\end{psgopartialboard}
+		
+		\vspace{1em}
+		Blanc récupère le coin. Plus tard, il pourra jouer à l'emplacement marqué et noir devra se stabiliser.
+	}
+	
+\end{document}
