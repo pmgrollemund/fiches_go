@@ -1,11 +1,11 @@
-This is LuaHBTeX, Version 1.22.0 (MiKTeX 25.4) (format=lualatex 2025.7.28)  29 JUL 2025 12:05
+This is LuaHBTeX, Version 1.22.0 (MiKTeX 25.4) (format=lualatex 2025.7.28)  29 JUL 2025 12:03
  restricted system commands enabled.
  file:line:error style messages enabled.
-**c:/Users/alexa/Documents/go/fiches_go/joseki/two_space_shimari/erreur_noir/er
-reur_noir_R
+**c:/Users/alexa/Documents/go/fiches_go/joseki/hoshi/sanrensei/keima_kosumi/kei
+ma_kosumi_R
 
-(c:/Users/alexa/Documents/go/fiches_go/joseki/two_space_shimari/erreur_noir/err
-eur_noir_R.tex
+(c:/Users/alexa/Documents/go/fiches_go/joseki/hoshi/sanrensei/keima_kosumi/keim
+a_kosumi_R.tex
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-29>
 Lua module: luaotfload 2023-08-31 3.26 Lua based OpenType font support
@@ -418,8 +418,8 @@ File: l3backend-luatex.def 2023-04-19 L3 backend support: PDF output (LuaTeX)
 \l__color_backend_stack_int=\count305
 Inserting `l3color' in `luaotfload.parse_color'.
 \l__pdf_internal_box=\box58
-) (./erreur_noir_R.aux)
-\openout1 = erreur_noir_R.aux
+) (./keima_kosumi_R.aux)
+\openout1 = keima_kosumi_R.aux
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 6.
 LaTeX Font Info:    ... okay on input line 6.
@@ -497,9 +497,9 @@ ii
 \everyMPtoPDFconversion=\toks35
 )
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 30.
+(Font)              <7> on input line 33.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 30.
+(Font)              <5> on input line 33.
 
 Preview: Tightpage 0 0 0 0
 [1
@@ -670,7 +670,15 @@ not loaded.
 Extended graphic state modifications dropped since `pdfmanagement-testphase' is 
 not loaded.
 Extended graphic state modifications dropped since `pdfmanagement-testphase' is 
-not loaded.] (./erreur_noir_R.aux)
+not loaded.
+Extended graphic state modifications dropped since `pdfmanagement-testphase' is 
+not loaded.
+Extended graphic state modifications dropped since `pdfmanagement-testphase' is 
+not loaded.
+Extended graphic state modifications dropped since `pdfmanagement-testphase' is 
+not loaded.
+Extended graphic state modifications dropped since `pdfmanagement-testphase' is 
+not loaded.] (./keima_kosumi_R.aux)
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-29>
@@ -683,17 +691,16 @@ Here is how much of LuaTeX's memory you used:
  491 words of node memory still in use:
    3 hlist, 1 vlist, 1 rule, 2 glue, 3 kern, 1 glyph, 11 attribute, 54 glue_spec
 , 11 attribute_list, 2 write, 5 late_lua, 1 pdf_colorstack nodes
-   avail lists: 2:1044,3:7,4:492,5:323,6:6,7:1195,8:1,9:1133,10:14,11:4
+   avail lists: 2:1100,3:7,4:526,5:333,6:6,7:1308,8:1,9:1198,10:12,11:8
  31870 multiletter control sequences out of 65536+600000
  27 fonts using 1477383 bytes
  90i,8n,81p,619b,582s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/alexa/AppData/Local/Programs/MiKTeX/fonts/opentype/public/lm/lmroman10
 -regular.otf><C:/Users/alexa/AppData/Local/Programs/MiKTeX/fonts/opentype/public
-/lm/lmsans10-regular.otf><C:/Users/alexa/AppData/Local/Programs/MiKTeX/fonts/typ
-e1/public/amsfonts/cm/cmsy10.pfb>
-Output written on erreur_noir_R.pdf (1 page, 19273 bytes).
+/lm/lmsans10-regular.otf>
+Output written on keima_kosumi_R.pdf (1 page, 11645 bytes).
 
-PDF statistics: 24 PDF objects out of 1000 (max. 8388607)
+PDF statistics: 20 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 131072)
  1 words of extra memory for PDF output out of 10000 (max. 100000000)
 
