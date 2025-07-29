@@ -1,26 +1,31 @@
-This is LuaHBTeX, Version 1.15.0 (TeX Live 2022/Debian)  (format=lualatex 2025.7.28)  28 JUL 2025 17:47
+This is LuaHBTeX, Version 1.22.0 (MiKTeX 25.4) (format=lualatex 2025.7.28)  29 JUL 2025 12:28
  restricted system commands enabled.
-**hane_dessous_R.tex
-(./hane_dessous_R.tex
-LaTeX2e <2022-11-01> patch level 1
-Lua module: luaotfload 2022-10-03 3.23 Lua based OpenType font support
-Lua module: lualibs 2022-10-04 2.75 ConTeXt Lua standard libraries.
-Lua module: lualibs-extended 2022-10-04 2.75 ConTeXt Lua libraries -- extended c
+ file:line:error style messages enabled.
+**c:/Users/alexa/Documents/go/fiches_go/joseki/two_space_shimari/hane_dessous/h
+ane_dessous_R
+
+(c:/Users/alexa/Documents/go/fiches_go/joseki/two_space_shimari/hane_dessous/ha
+ne_dessous_R.tex
+LaTeX2e <2023-06-01> patch level 1
+L3 programming layer <2023-08-29>
+Lua module: luaotfload 2023-08-31 3.26 Lua based OpenType font support
+Lua module: lualibs 2023-07-13 2.76 ConTeXt Lua standard libraries.
+Lua module: lualibs-extended 2023-07-13 2.76 ConTeXt Lua libraries -- extended c
 ollection.
-luaotfload | conf : Root cache directory is "/home/pmgrolle/.texlive2022/texmf-v
-ar/luatex-cache/generic/names".
-luaotfload | init : Loading fontloader "fontloader-2022-10-03.lua" from kpse-res
-olved path "/usr/share/texlive/texmf-dist/tex/luatex/luaotfload/fontloader-2022-
-10-03.lua".
+luaotfload | conf : Root cache directory is "C:/Users/alexa/AppData/Local/MiKTeX
+/luatex-cache/generic/names".
+luaotfload | init : Loading fontloader "fontloader-2023-08-19.lua" from kpse-res
+olved path "C:/Users/alexa/AppData/Local/Programs/MiKTeX/tex/luatex/luaotfload/f
+ontloader-2023-08-19.lua".
 Lua-only attribute luaotfload@noligature = 1
-luaotfload | init : Context OpenType loader version 3.120
+luaotfload | init : Context OpenType loader version 3.133
 Inserting `luaotfload.node_processor' in `pre_linebreak_filter'.
 Inserting `luaotfload.node_processor' in `hpack_filter'.
 Inserting `luaotfload.glyph_stream' in `glyph_stream_provider'.
 Inserting `luaotfload.define_font' in `define_font'.
 Lua-only attribute luaotfload_color_attribute = 2
-luaotfload | conf : Root cache directory is "/home/pmgrolle/.texlive2022/texmf-v
-ar/luatex-cache/generic/names".
+luaotfload | conf : Root cache directory is "C:/Users/alexa/AppData/Local/MiKTeX
+/luatex-cache/generic/names".
 Inserting `luaotfload.harf.strip_prefix' in `find_opentype_file'.
 Inserting `luaotfload.harf.strip_prefix' in `find_truetype_file'.
 Removing  `luaotfload.glyph_stream' from `glyph_stream_provider'.
@@ -37,47 +42,49 @@ Inserting `luaotfload.aux.patch_cambria_domh' in `luaotfload.patch_font'.
 Inserting `luaotfload.aux.fixup_fontdata' in `luaotfload.patch_font_unsafe'.
 Inserting `luaotfload.aux.set_capheight' in `luaotfload.patch_font'.
 Inserting `luaotfload.aux.set_xheight' in `luaotfload.patch_font'.
-Inserting `luaotfload.rewrite_fontname' in `luaotfload.patch_font'. L3 programm
-ing layer <2023-01-16>
+Inserting `luaotfload.rewrite_fontname' in `luaotfload.patch_font'.
 Inserting `tracingstacklevels' in `input_level_string'.
-(/usr/share/texlive/texmf-dist/tex/latex/standalone/standalone.cls
+(C:/Users/alexa/AppData/Local/Programs/MiKTeX/tex/latex/standalone/standalone.c
+ls
 Document Class: standalone 2022/10/10 v1.3b Class to compile TeX sub-files stan
 dalone
-(/usr/share/texlive/texmf-dist/tex/latex/tools/shellesc.sty
-Package: shellesc 2019/11/08 v1.0c unified shell escape interface for LaTeX
+(C:/Users/alexa/AppData/Local/Programs/MiKTeX/tex/latex/tools/shellesc.sty
+Package: shellesc 2023/04/15 v1.0d unified shell escape interface for LaTeX
 Package shellesc Info: Restricted shell escape enabled on input line 77.
 )
-(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifluatex.sty
+(C:/Users/alexa/AppData/Local/Programs/MiKTeX/tex/generic/iftex/ifluatex.sty
 Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
 
-(/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty
+(C:/Users/alexa/AppData/Local/Programs/MiKTeX/tex/generic/iftex/iftex.sty
 Package: iftex 2022/02/03 v1.0f TeX engine tests
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+(C:/Users/alexa/AppData/Local/Programs/MiKTeX/tex/latex/xkeyval/xkeyval.sty
 Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
 
-(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex
-(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkvutils.tex
-\XKV@toks=\toks16
-\XKV@tempa@toks=\toks17
+(C:/Users/alexa/AppData/Local/Programs/MiKTeX/tex/generic/xkeyval/xkeyval.tex
+(C:/Users/alexa/AppData/Local/Programs/MiKTeX/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks17
+\XKV@tempa@toks=\toks18
 
-(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/keyval.tex))
+(C:/Users/alexa/AppData/Local/Programs/MiKTeX/tex/generic/xkeyval/keyval.tex))
 \XKV@depth=\count183
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
 \sa@internal=\count184
 \c@sapage=\count185
 
-(/usr/share/texlive/texmf-dist/tex/latex/standalone/standalone.cfg
+(C:/Users/alexa/AppData/Local/Programs/MiKTeX/tex/latex/standalone/standalone.c
+fg
 File: standalone.cfg 2022/10/10 v1.3b Default configuration file for 'standalon
 e' class
-)
-(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
-Document Class: article 2022/07/02 v1.4n Standard LaTeX document class
-(/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
-File: size10.clo 2022/07/02 v1.4n Standard LaTeX file (size option)
-luaotfload | db : Font names database loaded from /home/pmgrolle/.texlive2022/te
-xmf-var/luatex-cache/generic/names/luaotfload-names.luc.gz)
+) (C:/Users/alexa/AppData/Local/Programs/MiKTeX/tex/latex/base/article.cls
+Document Class: article 2023/05/17 v1.4n Standard LaTeX document class
+(C:/Users/alexa/AppData/Local/Programs/MiKTeX/tex/latex/base/size10.clo
+File: size10.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
+luaotfload | db : Font names database not found, generating new one.
+luaotfload | db : This can take several minutes; please be patient.
+luaotfload | db : Reload initiated (formats: otf,ttf,ttc); reason: File not foun
+d: "lmroman10-regular".)
 \c@part=\count186
 \c@section=\count187
 \c@subsection=\count188
@@ -90,38 +97,39 @@ xmf-var/luatex-cache/generic/names/luaotfload-names.luc.gz)
 \belowcaptionskip=\skip49
 \bibindent=\dimen139
 )
-(/usr/share/texlive/texmf-dist/tex/generic/luatex85/luatex85.sty
+(C:/Users/alexa/AppData/Local/Programs/MiKTeX/tex/latex/luatex85/luatex85.sty
 Package: luatex85 2016/06/15 v1.4 pdftex aliases for luatex
 )
-(/usr/share/texlive/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+(C:/Users/alexa/AppData/Local/Programs/MiKTeX/tex/generic/pdftexcmds/pdftexcmds
+.sty
 Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
 )
 
-(/usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+(C:/Users/alexa/AppData/Local/Programs/MiKTeX/tex/generic/infwarerr/infwarerr.s
+ty
 Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
 )
-(/usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+(C:/Users/alexa/AppData/Local/Programs/MiKTeX/tex/generic/ltxcmds/ltxcmds.sty
 Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
 )
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
-\pdftexcmds@toks=\toks18
-)
-(/usr/share/texmf/tex/latex/preview/preview.sty
-Package: preview 2017/04/24 12.2 (AUCTeX/preview-latex)
+\pdftexcmds@toks=\toks19
+) (C:/Users/alexa/AppData/Local/Programs/MiKTeX/tex/latex/preview/preview.sty
+Package: preview 2017/04/24 13.1 (AUCTeX/preview-latex)
 
-(/usr/share/texmf/tex/latex/preview/prtightpage.def
+(C:/Users/alexa/AppData/Local/Programs/MiKTeX/tex/latex/preview/prtightpage.def
 \PreviewBorder=\dimen140
 )
 \pr@snippet=\count194
 \pr@box=\box51
-\pr@output=\toks19
+\pr@output=\toks20
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+(C:/Users/alexa/AppData/Local/Programs/MiKTeX/tex/latex/geometry/geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
 
-(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifvtex.sty
+(C:/Users/alexa/AppData/Local/Programs/MiKTeX/tex/generic/iftex/ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
 \Gm@cnth=\count195
@@ -135,27 +143,27 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 \Gm@layoutheight=\dimen146
 \Gm@layouthoffset=\dimen147
 \Gm@layoutvoffset=\dimen148
-\Gm@dimlist=\toks20
-)
-(/usr/share/texlive/texmf-dist/tex/latex/base/psgo.sty
+\Gm@dimlist=\toks21
+
+(C:/Users/alexa/AppData/Local/Programs/MiKTeX/tex/latex/geometry/geometry.cfg)) (C:/Users/alexa/AppData/Local/Programs/MiKTeX/tex/latex/psgo/psgo.sty
 Package: psgo 2008/09/04, v0.17
 
 `PSGO', <2008/09/04>, v0.17
-(/usr/share/texlive/texmf-dist/tex/latex/pstricks/pstricks.sty
-Package: pstricks 2022/19/23 v0.72 LaTeX wrapper for `PSTricks' (RN,HV)
+(C:/Users/alexa/AppData/Local/Programs/MiKTeX/tex/latex/pstricks/pstricks.sty
+Package: pstricks 2024/02/02 v0.75 LaTeX wrapper for `PSTricks' (RN,HV)
 
-(/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
+(C:/Users/alexa/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2022/06/12 v2.14 LaTeX color extensions (UK)
 
-(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
+(C:/Users/alexa/AppData/Local/Programs/MiKTeX/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: luatex.def on input line 227.
 
-(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/luatex.def
+(C:/Users/alexa/AppData/Local/Programs/MiKTeX/tex/latex/graphics-def/luatex.def
 File: luatex.def 2022/09/22 v1.2d Graphics/color driver for luatex
 )
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/mathcolor.ltx)
+(C:/Users/alexa/AppData/Local/Programs/MiKTeX/tex/latex/graphics/mathcolor.ltx)
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1353.
 Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1357.
 Package xcolor Info: Model `RGB' extended on input line 1369.
@@ -166,11 +174,11 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1374.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1375.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1376.
 )
-(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/pst-xkey.tex
+(C:/Users/alexa/AppData/Local/Programs/MiKTeX/tex/generic/xkeyval/pst-xkey.tex
 File: pst-xkey.tex 2005/11/25 v1.6 PSTricks specialization of xkeyval (HA)
 )
-(/usr/share/texlive/texmf-dist/tex/generic/pstricks/pstricks.tex
-(/usr/share/texlive/texmf-dist/tex/generic/pstricks/pst-fp.tex
+(C:/Users/alexa/AppData/Local/Programs/MiKTeX/tex/generic/pstricks/pstricks.tex
+(C:/Users/alexa/AppData/Local/Programs/MiKTeX/tex/generic/pstricks/pst-fp.tex
 `pst-fp' v0.06, 2020/11/20 (hv)
 \pstFP@xs=\count198
 \pstFP@xia=\count199
@@ -182,31 +190,41 @@ File: pst-xkey.tex 2005/11/25 v1.6 PSTricks specialization of xkeyval (HA)
 \pstFP@regs=\count271
 \pstFP@times=\count272
 )
-(/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
-(/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
-\pgfutil@everybye=\toks21
+(C:/Users/alexa/AppData/Local/Programs/MiKTeX/tex/latex/pgf/utilities/pgffor.st
+y
+(C:/Users/alexa/AppData/Local/Programs/MiKTeX/tex/latex/pgf/utilities/pgfrcs.st
+y
+(C:/Users/alexa/AppData/Local/Programs/MiKTeX/tex/generic/pgf/utilities/pgfutil
+-common.tex
+\pgfutil@everybye=\toks22
 \pgfutil@tempdima=\dimen149
 \pgfutil@tempdimb=\dimen150
 )
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+(C:/Users/alexa/AppData/Local/Programs/MiKTeX/tex/generic/pgf/utilities/pgfutil
+-latex.def
 \pgfutil@abb=\box52
 )
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/pgf.revision.tex)
+(C:/Users/alexa/AppData/Local/Programs/MiKTeX/tex/generic/pgf/utilities/pgfrcs.
+code.tex
+(C:/Users/alexa/AppData/Local/Programs/MiKTeX/tex/generic/pgf/pgf.revision.tex)
 Package: pgfrcs 2023-01-15 v3.1.10 (3.1.10)
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
-\pgfkeys@pathtoks=\toks22
-\pgfkeys@temptoks=\toks23
-
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeyslibraryfiltered
+(C:/Users/alexa/AppData/Local/Programs/MiKTeX/tex/latex/pgf/utilities/pgfkeys.s
+ty
+(C:/Users/alexa/AppData/Local/Programs/MiKTeX/tex/generic/pgf/utilities/pgfkeys
 .code.tex
-\pgfkeys@tmptoks=\toks24
-))) (/usr/share/texlive/texmf-dist/tex/latex/pgf/math/pgfmath.sty
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex
+\pgfkeys@pathtoks=\toks23
+\pgfkeys@temptoks=\toks24
+
+(C:/Users/alexa/AppData/Local/Programs/MiKTeX/tex/generic/pgf/utilities/pgfkeys
+libraryfiltered.code.tex
+\pgfkeys@tmptoks=\toks25
+)))
+(C:/Users/alexa/AppData/Local/Programs/MiKTeX/tex/latex/pgf/math/pgfmath.sty
+(C:/Users/alexa/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmath.code
+.tex
+(C:/Users/alexa/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmathutil.
+code.tex
 \pgf@x=\dimen151
 \pgf@xa=\dimen152
 \pgf@xb=\dimen153
@@ -220,45 +238,50 @@ Package: pgfrcs 2023-01-15 v3.1.10 (3.1.10)
 \c@pgf@countc=\count275
 \c@pgf@countd=\count276
 )
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+(C:/Users/alexa/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmathparse
+r.code.tex
 \pgfmath@dimen=\dimen159
 \pgfmath@count=\count277
 \pgfmath@box=\box53
-\pgfmath@toks=\toks25
-\pgfmath@stack@operand=\toks26
-\pgfmath@stack@operation=\toks27
+\pgfmath@toks=\toks26
+\pgfmath@stack@operand=\toks27
+\pgfmath@stack@operation=\toks28
 )
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code
-.tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonomet
-ric.code.tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.cod
-e.tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison
-.code.tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.
-tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code
-.tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.
-tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerari
-thmetics.code.tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+(C:/Users/alexa/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmathfunct
+ions.code.tex)
+(C:/Users/alexa/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmathfunct
+ions.basic.code.tex)
+(C:/Users/alexa/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmathfunct
+ions.trigonometric.code.tex)
+(C:/Users/alexa/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmathfunct
+ions.random.code.tex)
+(C:/Users/alexa/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmathfunct
+ions.comparison.code.tex)
+(C:/Users/alexa/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmathfunct
+ions.base.code.tex)
+(C:/Users/alexa/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmathfunct
+ions.round.code.tex)
+(C:/Users/alexa/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmathfunct
+ions.misc.code.tex)
+(C:/Users/alexa/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmathfunct
+ions.integerarithmetics.code.tex)
+(C:/Users/alexa/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmathcalc.
+code.tex)
+(C:/Users/alexa/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmathfloat
+.code.tex
 \c@pgfmathroundto@lastzeros=\count278
 )))
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+(C:/Users/alexa/AppData/Local/Programs/MiKTeX/tex/generic/pgf/utilities/pgffor.
+code.tex
 Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
 \pgffor@iter=\dimen160
 \pgffor@skip=\dimen161
-\pgffor@stack=\toks28
-\pgffor@toks=\toks29
+\pgffor@stack=\toks29
+\pgffor@toks=\toks30
 ))
 \psLoopIndex=\count279
 
-`PSTricks' v3.18  <2022/11/28> (tvz,hv)
+`PSTricks' v3.22  <2025/06/11> (tvz,hv)
 \pst@dima=\dimen162
 \pst@dimb=\dimen163
 \pst@dimc=\dimen164
@@ -283,13 +306,14 @@ Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
 \pst@cnto=\count288
 \pst@cntp=\count289
 \@zero=\count290
-\pst@toks=\toks30
+\pst@toks=\toks31
 --- We are running lualatex with luapstricks ---
-Lua module: luapstricks 2022-09-10 v0.6 PSTricks backend for LuaLaTeX
-Lua function luaPST = 26
-Lua function luaPSTcolor = 27
-Lua function luaPSTbox = 28 (/usr/share/texlive/texmf-dist/tex/generic/pstricks
-/pstricks-color.tex)
+Lua module: luapstricks 2023-05-23 v0.10 PSTricks backend for LuaLaTeX
+Lua function luaPST = 25
+Lua function luaPSTcolor = 26
+Lua function luaPSTbox = 27
+(C:/Users/alexa/AppData/Local/Programs/MiKTeX/tex/generic/pstricks/pstricks-col
+or.tex)
 \psunit=\dimen172
 \psxunit=\dimen173
 \psyunit=\dimen174
@@ -298,37 +322,56 @@ Lua function luaPSTbox = 28 (/usr/share/texlive/texmf-dist/tex/generic/pstricks
 \psk@startLW=\dimen176
 \psk@endLW=\dimen177
 
-(/usr/share/texlive/texmf-dist/tex/generic/pstricks/pstricks-arrows.tex
+(C:/Users/alexa/AppData/Local/Programs/MiKTeX/tex/generic/pstricks/pstricks-arr
+ows.tex
 \pshooklength=\dimen178
 \pshookwidth=\dimen179
 )
-\pst@customdefs=\toks31
+\pst@customdefs=\toks32
 
-(/usr/share/texlive/texmf-dist/tex/generic/pstricks/pstricks-dots.tex)
+(C:/Users/alexa/AppData/Local/Programs/MiKTeX/tex/generic/pstricks/pstricks-dot
+s.tex)
 \pslinearc=\dimen180
 \pst@symbolStep=\dimen181
 \pst@symbolWidth=\dimen182
 \pst@symbolLinewidth=\dimen183
-\everypsbox=\toks32
+
+(C:/Users/alexa/AppData/Local/Programs/MiKTeX/tex/generic/pstricks/pst-code-gri
+d.tex)
+(C:/Users/alexa/AppData/Local/Programs/MiKTeX/tex/generic/pstricks/pst-code-box
+.tex
+\everypsbox=\toks33
 \psframesep=\dimen184
+)
+(C:/Users/alexa/AppData/Local/Programs/MiKTeX/tex/generic/pstricks/pst-code-arc
+.tex)
+(C:/Users/alexa/AppData/Local/Programs/MiKTeX/tex/generic/pstricks/pst-code-cir
+cle_ellipse.tex)
+(C:/Users/alexa/AppData/Local/Programs/MiKTeX/tex/generic/pstricks/pst-code-ref
+_rot.tex)
+(C:/Users/alexa/AppData/Local/Programs/MiKTeX/tex/generic/pstricks/pst-code-put
+.tex
 \pslabelsep=\dimen185
+)
+(C:/Users/alexa/AppData/Local/Programs/MiKTeX/tex/generic/pstricks/pst-code-psp
+icture.tex
 \sh@wgridXunit=\dimen186
 \sh@wgridYunit=\dimen187
 \pst@shift=\dimen188
 \ps@imagectr=\count292
-)
-File: pstricks.tex 2022/11/28 v3.18 `PSTricks' (tvz,hv)
+))
+File: pstricks.tex 2025/06/11 v3.22 `PSTricks' (tvz,hv)
 
-(/usr/share/texlive/texmf-dist/tex/generic/pstricks/pst-fp.tex
+(C:/Users/alexa/AppData/Local/Programs/MiKTeX/tex/generic/pstricks/pst-fp.tex
 `pst-fp' v0.06, 2020/11/20 (hv))
 File: pst-fp.tex 2020/11/20 v0.06 `PST-fp' (hv)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/pst-node/pst-node.sty
+(C:/Users/alexa/AppData/Local/Programs/MiKTeX/tex/latex/pst-node/pst-node.sty
 Package: pst-node 2012/09/18 v1.01 LaTeX wrapper for `pst-node' (HV)
 Package: pst-node 2010/04/22 package wrapper for pst-node.tex
 
-(/usr/share/texlive/texmf-dist/tex/generic/pst-node/pst-node.tex
- v1.43, 2022/01/31
+(C:/Users/alexa/AppData/Local/Programs/MiKTeX/tex/generic/pst-node/pst-node.tex
+ v1.44, 2024/07/04
 \psrow=\count293
 \pscol=\count294
 \psmatrixcnt=\count295
@@ -338,8 +381,9 @@ Package: pst-node 2010/04/22 package wrapper for pst-node.tex
 \num@pts=\count297
 \pst@argcnt=\count298
 )
-File: pst-node.tex 2022/01/31 1.43 `pst-node' (tvz,hv)
-) (/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
+File: pst-node.tex 2024/07/04 1.44 `pst-node' (tvz,hv)
+)
+(C:/Users/alexa/AppData/Local/Programs/MiKTeX/tex/latex/tools/calc.sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Acount=\count299
 \calc@Bcount=\count300
@@ -352,7 +396,7 @@ LaTeX Info: Redefining \addtolength on input line 81.
 \calc@Ccount=\count301
 \calc@Cskip=\skip54
 )
-(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+(C:/Users/alexa/AppData/Local/Programs/MiKTeX/tex/latex/base/ifthen.sty
 Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
 )
 \stmarkbox=\box57
@@ -368,12 +412,13 @@ Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
 \tmpyb=\skip62
 \c@gotmpc=\count304
 )
-(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-luatex.def
-File: l3backend-luatex.def 2023-01-16 L3 backend support: PDF output (LuaTeX)
+(C:/Users/alexa/AppData/Local/Programs/MiKTeX/tex/latex/l3backend/l3backend-lua
+tex.def
+File: l3backend-luatex.def 2023-04-19 L3 backend support: PDF output (LuaTeX)
 \l__color_backend_stack_int=\count305
+Inserting `l3color' in `luaotfload.parse_color'.
 \l__pdf_internal_box=\box58
-)
-(./hane_dessous_R.aux)
+) (./hane_dessous_R.aux)
 \openout1 = hane_dessous_R.aux
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 6.
@@ -387,8 +432,9 @@ LaTeX Font Info:    ... okay on input line 6.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 6.
 LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 6
 .
- (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
-File: ts1cmr.fd 2022/07/10 v2.5l Standard LaTeX font definitions
+
+(C:/Users/alexa/AppData/Local/Programs/MiKTeX/tex/latex/base/ts1cmr.fd
+File: ts1cmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 6.
 LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 6.
@@ -397,6 +443,7 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 6.
 LaTeX Font Info:    ... okay on input line 6.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 6.
 LaTeX Font Info:    ... okay on input line 6.
+
 Preview: Fontsize 10pt
 Preview: PDFoutput 1
 *geometry* driver: auto-detecting
@@ -433,24 +480,26 @@ Preview: PDFoutput 1
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+
+(C:/Users/alexa/AppData/Local/Programs/MiKTeX/tex/context/base/mkii/supp-pdf.mk
+ii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count306
 \scratchdimen=\dimen191
 \scratchbox=\box59
 \nofMPsegments=\count307
 \nofMParguments=\count308
-\everyMPshowfont=\toks33
+\everyMPshowfont=\toks34
 \MPscratchCnt=\count309
 \MPscratchDim=\dimen192
 \MPnumerator=\count310
 \makeMPintoPDFobject=\count311
-\everyMPtoPDFconversion=\toks34
+\everyMPtoPDFconversion=\toks35
 )
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 33.
+(Font)              <7> on input line 34.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 33.
+(Font)              <5> on input line 34.
 
 Preview: Tightpage 0 0 0 0
 [1
@@ -533,7 +582,7 @@ not loaded.
 Extended graphic state modifications dropped since `pdfmanagement-testphase' is 
 not loaded.
 Extended graphic state modifications dropped since `pdfmanagement-testphase' is 
-not loaded.{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+not loaded.{C:/Users/alexa/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}
 Extended graphic state modifications dropped since `pdfmanagement-testphase' is 
 not loaded.
 Extended graphic state modifications dropped since `pdfmanagement-testphase' is 
@@ -629,24 +678,34 @@ not loaded.
 Extended graphic state modifications dropped since `pdfmanagement-testphase' is 
 not loaded.
 Extended graphic state modifications dropped since `pdfmanagement-testphase' is 
-not loaded.] (./hane_dessous_R.aux))
+not loaded.
+Extended graphic state modifications dropped since `pdfmanagement-testphase' is 
+not loaded.
+Extended graphic state modifications dropped since `pdfmanagement-testphase' is 
+not loaded.] (./hane_dessous_R.aux)
+ ***********
+LaTeX2e <2023-06-01> patch level 1
+L3 programming layer <2023-08-29>
+ ***********
+)
 
 Here is how much of LuaTeX's memory you used:
- 10925 strings out of 478382
+ 10841 strings out of 477253
  100000,1977958 words of node,token memory allocated
  491 words of node memory still in use:
    3 hlist, 1 vlist, 1 rule, 2 glue, 3 kern, 1 glyph, 11 attribute, 54 glue_spec
 , 11 attribute_list, 2 write, 5 late_lua, 1 pdf_colorstack nodes
-   avail lists: 2:1095,3:7,4:520,5:327,6:6,7:1325,8:1,9:1187,10:11,11:10
- 30674 multiletter control sequences out of 65536+600000
+   avail lists: 2:1116,3:7,4:534,5:327,6:6,7:1354,8:1,9:1214,10:11,11:10
+ 31870 multiletter control sequences out of 65536+600000
  27 fonts using 1477383 bytes
- 90i,8n,81p,549b,603s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texmf/fonts/opentype/public/lm/lmroman10-regular.otf></usr/share/tex
-mf/fonts/opentype/public/lm/lmsans10-regular.otf>
-Output written on hane_dessous_R.pdf (1 page, 11236 bytes).
+ 90i,8n,81p,621b,582s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/alexa/AppData/Local/Programs/MiKTeX/fonts/opentype/public/lm/lmroman10
+-regular.otf><C:/Users/alexa/AppData/Local/Programs/MiKTeX/fonts/opentype/public
+/lm/lmsans10-regular.otf><C:/Users/alexa/AppData/Local/Programs/MiKTeX/fonts/typ
+e1/public/amsfonts/cm/cmsy10.pfb>
+Output written on hane_dessous_R.pdf (1 page, 19965 bytes).
 
-PDF statistics: 22 PDF objects out of 1000 (max. 8388607)
- 12 compressed objects within 1 object stream
+PDF statistics: 24 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 131072)
  1 words of extra memory for PDF output out of 10000 (max. 100000000)
 
