@@ -1,0 +1,36 @@
+\documentclass[preview, border=0pt, varwidth=false]{standalone}
+
+\usepackage[paperwidth=10.2cm, paperheight=14.65cm, margin=0cm]{geometry}
+\usepackage{psgo}
+
+\begin{document}
+	\setgounit{0.6cm} 
+	
+	\parbox[c][14.65cm][c]{10.2cm}{
+		\centering
+		
+		\begin{psgopartialboard}{(1,1)(9,7)}
+			\stone{black}{c}{4}
+			\stone{black}{f}{4}
+			\stone{white}{h}{3}
+			\markpos{\marktr}{g}{3}
+			\pass
+			\move{d}{4}
+			\move{d}{3}
+			\move{e}{3}
+			\move{e}{4}
+			\move{d}{5}
+			\move{c}{3}
+			\move{f}{3}
+			\move{g}{4}
+			\move{h}{4}
+			\move{f}{6}
+			\move{h}{6}
+			\move{d}{6}
+		\end{psgopartialboard}
+		
+		\vspace{1em}
+		Noir capture les deux pierres blanches, blanc développe son influence sur le bord droit. Une fragilité demeure en $\triangle$.
+	}
+	
+\end{document}
