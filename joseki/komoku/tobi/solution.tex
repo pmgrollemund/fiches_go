@@ -1,0 +1,36 @@
+\documentclass[preview, border=0pt, varwidth=false]{standalone}
+
+\usepackage[paperwidth=10.2cm, paperheight=14.65cm, margin=0cm]{geometry}
+\usepackage{psgo}
+\usepackage{amsmath}
+
+\begin{document}
+	\setgounit{0.6cm} 
+	
+\parbox[c][14.65cm][c]{10.2cm}{
+	\centering
+	
+	\begin{psgopartialboard}{(1,1)(11,7)}
+		\stone{black}{d}{4}
+		\stone{white}{f}{3}
+		\stone[\marktr]{black}{h}{3}
+		\pass
+		\move{c}{3}
+		\move{c}{4}
+		\move{d}{3}
+		\move{e}{4}
+		\move{b}{3}
+		\move{f}{4}
+		\move{g}{3}
+		\move{g}{4}
+		\move{h}{2}
+		\markpos{\markma}{f}{2}
+		\markpos{\marktr}{b}{5}
+	\end{psgopartialboard}
+	
+	\vspace{1em}
+	Blanc peut envahir le coin en jouant san-san \stone[1]{white} et \\ concède un mur noir. 
+	Au lieu de la séquence standard \\ dans laquelle blanc joue {\large $\boldsymbol{\times}$}, il descend en \stone[5]{white} afin de \\consolider le nobi \stone[1]{white}\,\stone[3]{white} avant de pouvoir pousser \\ en \stone[7]{white}. Noir doit poursuivre de \stone[4]{black} à \stone[8]{black}. Il en \\  résulte les deux faiblesses $\triangle$, que noir ou blanc peuvent \\  résoudre plus tard dans la partie.
+}
+
+\end{document}
