@@ -1,0 +1,28 @@
+\documentclass[preview, border=0pt, varwidth=false]{standalone}
+
+\usepackage[paperwidth=10.2cm, paperheight=14.65cm, margin=0cm]{geometry}
+\usepackage{psgo}
+\usepackage{unicode-math}
+\setmathfont{XITS Math}
+
+\begin{document}
+	\setgounit{0.6cm} 
+	
+\parbox[c][14.65cm][c]{10.2cm}{
+	\centering
+	
+	{\Large\textbf{Attachement au komoku} 	$\medblackstar \medblackstar \medblackstar \medwhitestar$ \\ Noir protège son coin avec un hane}
+	\vspace{3em}
+	
+	\begin{psgopartialboard}{(1,1)(11,11)}
+		\stone{black}{c}{4}
+		\stone[\marktr]{black}{j}{3}
+		\stone[\marksq]{black}{d}{10}
+		\pass
+		\move{d}{4}
+	\end{psgopartialboard}
+	
+	\vspace{1em}
+	Noir s'appuie sur \stone[\marktr]{black} pour protéger son coin mais laisse blanc avec une bonne influence, contrainte par \stone[\marksq]{black}.}
+
+\end{document}
