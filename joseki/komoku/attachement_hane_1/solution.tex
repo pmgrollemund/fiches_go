@@ -1,0 +1,50 @@
+\documentclass[preview, border=0pt, varwidth=false]{standalone}
+
+\usepackage[paperwidth=10.2cm, paperheight=14.65cm, margin=0cm]{geometry}
+\usepackage{psgo}
+\usepackage{amsmath}
+
+\begin{document}
+	\setgounit{0.6cm} 
+	
+\parbox[c][14.65cm][c]{10.2cm}{
+	\centering
+	
+	\begin{psgopartialboard}{(1,1)(11,11)}
+		\stone{black}{c}{4}
+		\stone[\marktr]{black}{j}{3}
+		\stone{white}{d}{4}
+		\stone[\marksq]{black}{d}{10}
+		\markpos{\marklb{B}}{d}{9}
+		\markpos{\marklb{A}}{c}{9}
+		\pass*
+		\pass
+		\move{d}{3}		
+		\move{c}{5}		
+		\move{e}{4}		
+		\move{d}{5}		
+		\move{c}{3}		
+		\move{e}{5}		
+		\move{f}{4}		
+		\move{c}{8}		
+		\move{b}{9}		
+		\move{f}{5}		
+		\move{g}{5}		
+		\move{g}{6}		
+		\move{h}{6}		
+		\move{g}{7}		
+	\end{psgopartialboard}
+	
+	\vspace{1em}	
+Noir joue atari avec \stone[3]{black} afin de poursuivre en direction de \stone[\marktr]{black}. 
+
+\bigskip
+
+Avant de monter en \stone[10]{white}, blanc consolide sa base de vie avec \stone[8]{white}. Etant contraint par \stone[\marksq]{black}, blanc ne peut pas faire son extension naturelle en A ou B, et se contente de \stone[8]{white}. En réponse, noir joue sur la $2^\text{ème}$ afin de couper la base de vie potentielle de blanc sur le bord.
+
+
+\bigskip
+
+Au terme de la séquence, noir profite de l'initiative pour jouer ailleurs, mais souffre de la présence de \stone[\marktr]{black} qui est surnuméraire dans cette configuration.}
+
+\end{document}
