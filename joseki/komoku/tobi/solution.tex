@@ -10,27 +10,25 @@
 \parbox[c][14.65cm][c]{10.2cm}{
 	\centering
 	
-	\begin{psgopartialboard}{(1,1)(11,7)}
-		\stone{black}{d}{4}
-		\stone{white}{f}{3}
-		\stone[\marktr]{black}{h}{3}
+	\begin{psgopartialboard}{(1,1)(11,9)}
+		\stone{black}{c}{4}
+		\stone[\marklb{A}]{black}{j}{3}
 		\pass
-		\move{c}{3}
-		\move{c}{4}
-		\move{d}{3}
 		\move{e}{4}
-		\move{b}{3}
-		\move{f}{4}
-		\move{g}{3}
-		\move{g}{4}
-		\move{h}{2}
-		\markpos{\markma}{f}{2}
-		\markpos{\marktr}{b}{5}
+		\move{d}{3}
+		\move{d}{5}
+		\move{c}{5}
+		\move{d}{7}
+		\move{c}{6}
+		\move{g}{7}
+		\markpos{\marktr}{e}{3}
 	\end{psgopartialboard}
 	
 	\vspace{1em}
-	Blanc peut envahir le coin en jouant san-san \stone[1]{white} et \\ concède un mur noir. 
-	Au lieu de la séquence standard \\ dans laquelle blanc joue {\large $\boldsymbol{\times}$}, il descend en \stone[5]{white} afin de \\consolider le nobi \stone[1]{white}\,\stone[3]{white} avant de pouvoir pousser \\ en \stone[7]{white}. Noir doit poursuivre de \stone[4]{black} à \stone[8]{black}. Il en \\  résulte les deux faiblesses $\triangle$, que noir ou blanc peuvent \\  résoudre plus tard dans la partie.
+	
+	La bonne réponse est \stone[2]{black} pour protéger le coin. Blanc ne pourrait pas descendre en $\triangle$ car il n'aurait pas l'espace suffisant pour son extension à cause de \stone[\marklb{A}]{black}.
+	Il doit ensuite faire \stone[3]{white} afin de s'offrir de l'espace en jouant léger. En réponse à \stone[6]{black}, il protège la menace de couper le tobi par \stone[7]{white}, tout en continuant de se donner de l'espace.
+	Noir profite de l'initiave et laisse blanc flotter au dessus de la $4^\text{ème}$ ligne.
 }
 
 \end{document}
