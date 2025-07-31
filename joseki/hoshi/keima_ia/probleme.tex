@@ -4,10 +4,14 @@
 \usepackage{psgo}
 \usepackage{unicode-math}
 
-\setmathfont[
-  Path = C:/Users/alexa/Documents/go/fiches_go/police_etoiles/,
-  Extension = .otf
-]{XITSMath-Regular}
+
+%\IfFileExists{C:/Users/alexa/Documents/go/fiches_go/police_etoiles/XITSMath-Regular.otf}{
+%\setmathfont[
+%  Path = C:/Users/alexa/Documents/go/fiches_go/police_etoiles/,
+%  Extension = .otf
+%]{XITSMath-Regular}
+%}
+\setmathfont{XITSMath-Regular}
 
 \begin{document}
 	\setgounit{0.6cm} 
@@ -15,7 +19,7 @@
 \parbox[c][14.65cm][c]{10.2cm}{
 	\centering
 	
-	{\Large\textbf{Approche en keima} \\ Blanc se laisse des possibilités $\medblackstar \medblackstar \medwhitestar \medwhitestar$}
+	{\Large\textbf{Approche en keima} $\medblackstar \medblackstar \medwhitestar \medwhitestar$ \\ Blanc se laisse des possibilités }
 	\vspace{3em}
 	
 	\begin{psgopartialboard}{(1,1)(9,7)}
