@@ -1,0 +1,60 @@
+\documentclass[preview, border=0pt, varwidth=false]{standalone}
+
+\usepackage[paperwidth=10.2cm, paperheight=14.65cm, margin=0cm]{geometry}
+\usepackage{psgo}
+
+\begin{document}
+	\setgounit{0.4cm} 
+	
+\parbox[c][14.65cm][c]{10.2cm}{
+	\centering
+	
+	\begin{psgopartialboard}{(1,1)(19,9)}
+		\stone{white}{d}{4}
+		\stone{black}{q}{4}
+		\stone{black}{f}{3}
+		\pass
+		\stone{white}{o}{3}
+		\stone{black}{m}{3}
+		\stone{white}{c}{6}
+		\pass*
+		\move{r}{7}
+		\move{q}{3}
+		\move{r}{3}
+		\move{r}{2}
+		\move{r}{4}
+		\move{p}{2}
+		\move{p}{4}
+		\move{o}{4}
+		\move{o}{5}
+		\markpos{\marktr}{r}{6}
+	\end{psgopartialboard}
+	
+	\vspace{1em}
+	L'extension \,  \marktr \,  en keima aurait été une erreur puisqu'à la fin de la séquence elle produit une surconcentration. L'extension \stone[1]{black} en ogeima est la bonne option. 
+
+	\bigskip
+
+	Si blanc envahit au san-san, le constat est le même : 	
+	\begin{psgopartialboard}{(1,1)(19,9)}
+		\stone{white}{d}{4}
+		\stone{black}{q}{4}
+		\stone{black}{f}{3}
+		\stone{black}{r}{7}
+		\stone{white}{o}{3}
+		\stone{black}{m}{3}
+		\stone{white}{c}{6}
+		\pass
+		\stone[\small$\mathsf{1}$]{black}{r}{7}
+		\stone[\small$\mathsf{2}$]{white}{r}{3}
+		\stone[\small$\mathsf{3}$]{black}{q}{3}		
+		\stone[\small$\mathsf{4}$]{white}{q}{2}
+		\stone[\small$\mathsf{5}$]{black}{r}{4}		
+		\stone[\small$\mathsf{6}$]{white}{s}{2}
+		\stone[\small$\mathsf{7}$]{black}{s}{3}		
+		\stone[\small$\mathsf{8}$]{white}{r}{2}
+		\markpos{\marktr}{r}{6}		
+	\end{psgopartialboard}
+}
+
+\end{document}
