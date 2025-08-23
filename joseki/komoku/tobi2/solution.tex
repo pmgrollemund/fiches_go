@@ -1,0 +1,32 @@
+\documentclass[preview, border=0pt, varwidth=false]{standalone}
+
+\usepackage[paperwidth=10.2cm, paperheight=14.65cm, margin=0cm]{geometry}
+\usepackage{psgo}
+
+\begin{document}
+	\setgounit{0.4cm} 
+	
+\parbox[c][14.65cm][c]{10.2cm}{
+	\centering
+	
+
+	\begin{psgopartialboard}{(1,1)(7,11)}
+		\stone{black}{d}{3}
+		\stone{white}{d}{5}
+		\pass*
+		\pass
+		\move{c}{5}
+		\move{c}{6}
+		\move{c}{4}
+		\move{d}{6}
+		\move{f}{3}
+		\move{d}{10}
+		\markpos{\marktr}{d}{7}
+	\end{psgopartialboard}
+	
+	\vspace{1em}
+	Blanc joue la connexion \stone[4]{white} afin de pouvoir profiter d'une belle extension sur le bord, sans se créer de faiblesse, comme aurait pu le faire un connexion diagonale en $\triangle$ à la place de \stone[4]{white}.
+
+}
+
+\end{document}

@@ -1,0 +1,44 @@
+\documentclass[preview, border=0pt, varwidth=false]{standalone}
+
+\usepackage[paperwidth=10.2cm, paperheight=14.65cm, margin=0cm]{geometry}
+\usepackage{psgo}
+
+\begin{document}
+	\setgounit{0.4cm} 
+	
+\parbox[c][14.65cm][c]{10.2cm}{
+	\centering
+	
+
+	\begin{psgopartialboard}{(1,1)(9,9)}
+		\stone{black}{d}{3}
+		\stone{white}{d}{5}
+		\stone{black}{c}{5}
+		\stone{white}{c}{6}
+		\stone{black}{c}{4}
+		\stone[\marksq]{white}{d}{7}
+		\pass
+		\stone{white}{e}{3}
+		\pass*
+		\move{d}{4}
+		\move{e}{4}
+		\move{e}{5}
+		\move{d}{6}
+		\move{e}{2}
+		\move{f}{2}
+		\move{d}{2}
+		\move{g}{4}
+		\markpos{\marktr}{f}{5}
+	\end{psgopartialboard}
+	
+	
+	\vspace{1em}
+	Après \stone[8]{white} noir a de nouveau l'initiative pour jouer ailleurs, ce qui correspond à un deuxième coup gratuit pour noir dans la globalité de cette séquence. De plus, à tout moment, noir peut jouer en $\triangle$ et mettre en difficulté blanc.
+
+	\bigskip
+	
+	Ceci résulte de la connexion trop faible \stone[\marksq]{white} au début de la séquence.
+
+}
+
+\end{document}

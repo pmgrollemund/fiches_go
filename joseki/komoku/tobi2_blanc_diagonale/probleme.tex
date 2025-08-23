@@ -1,0 +1,33 @@
+\documentclass[preview, border=0pt, varwidth=false]{standalone}
+
+\usepackage[paperwidth=10.2cm, paperheight=14.65cm, margin=0cm]{geometry}
+\usepackage{psgo}
+\usepackage{unicode-math}
+\setmathfont{XITSMath-Regular}
+
+\begin{document}
+	\setgounit{0.4cm} 
+	
+\parbox[c][14.65cm][c]{10.2cm}{
+	\centering
+	
+	{\Large\textbf{Approche en tobi} $\medblackstar \medblackstar \medblackstar \medwhitestar$ \\ Connexion diagonale de blanc}
+	\vspace{3em}
+	
+	\begin{psgopartialboard}{(1,1)(9,9)}
+		\stone{black}{d}{3}
+		\pass
+		\move{d}{5}
+		\move{c}{5}
+		\move{c}{6}
+		\move{c}{4}
+		\move{d}{7}
+		\pass
+		\move{e}{3}
+	\end{psgopartialboard}
+	
+	\vspace{1em}
+	La connexion en diagonale \stone[5]{white} apporte ici une faiblesse. Au regard et au profit de cette faiblesse, noir peut tenuki. Puis, si blanc compresse en \stone[7]{white}, noir consolide son coin et fragilise blanc. 
+}
+
+\end{document}
