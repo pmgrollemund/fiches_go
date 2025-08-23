@@ -1,0 +1,66 @@
+\documentclass[preview, border=0pt, varwidth=false]{standalone}
+
+\usepackage[paperwidth=10.2cm, paperheight=14.65cm, margin=0cm]{geometry}
+\usepackage{psgo}
+\usepackage{unicode-math}
+\setmathfont{XITSMath-Regular}
+
+\begin{document}
+	\setgounit{0.4cm} 
+	
+\parbox[c][14.65cm][c]{10.2cm}{
+	\centering
+	
+
+	\begin{psgopartialboard}{(1,1)(11,9)}
+		\stone{white}{c}{4}
+		\stone{black}{e}{3}
+		\stone{white}{j}{3}
+		\pass
+		\pass*
+		\move{d}{5}
+		\move{c}{5}
+		\move{d}{6}
+		\move{c}{7}
+		\move{c}{3}
+		\move{d}{4}
+		\move{e}{4}
+		\move{d}{3}
+		\move{c}{6}
+		\move{b}{6}
+		\move{b}{7}
+	\end{psgopartialboard}
+	
+	\vspace{1em}
+	Noir gagne la possibilité de jouer \stone[11]{black} qui est un bon coup, parce qu'il est protégé de la capture sous couvert de capturer les 4 pierres blanches : 
+
+
+
+	\begin{psgopartialboard}{(1,1)(11,9)}
+		\stone{white}{c}{4}
+		\stone{black}{e}{3}
+		\stone{white}{j}{3}
+		\pass
+		\pass*
+		\stone{black}{d}{5}
+		\stone{white}{c}{5}
+		\stone{black}{d}{6}
+		\stone{white}{c}{7}
+		\stone{black}{c}{3}
+		\stone{white}{d}{4}
+		\stone{black}{e}{4}
+		\stone{white}{d}{3}
+		\stone{black}{c}{6}
+		\stone{white}{b}{6}
+		\stone[\markma]{black}{b}{7}
+		\pass
+		\stone[\small$\mathsf{1}$]{white}{b}{8}
+		\stone[\small$\mathsf{2}$]{black}{b}{5}
+		\stone[\small$\mathsf{3}$]{white}{a}{7}
+		\stone[\small$\mathsf{4}$]{black}{b}{4}
+		\stone[\small$\mathsf{5}$]{white}{d}{2}
+		\stone[\small$\mathsf{6}$]{black}{c}{2}
+	\end{psgopartialboard}
+	}
+
+\end{document}
