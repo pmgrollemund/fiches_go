@@ -1,0 +1,27 @@
+\documentclass[preview, border=0pt, varwidth=false]{standalone}
+
+\usepackage[paperwidth=10.2cm, paperheight=14.65cm, margin=0cm]{geometry}
+\usepackage{psgo}
+
+\begin{document}
+	\setgounit{0.6cm} 
+	
+\parbox[c][14.65cm][c]{10.2cm}{
+	\centering
+		
+	\begin{psgopartialboard}{(1,1)(11,11)}
+		\stone{black}{d}{4}
+		\stone{white}{f}{3}
+		\pass
+		\pass*
+		\move{c}{6}
+		\move{d}{2}
+		\move{c}{3}
+		\move{j}{3}
+	\end{psgopartialboard}
+	
+	\vspace{1em}
+	Noir peut tenuki.
+}
+
+\end{document}

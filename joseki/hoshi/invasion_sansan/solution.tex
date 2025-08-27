@@ -1,0 +1,58 @@
+\documentclass[preview, border=0pt, varwidth=false]{standalone}
+
+\usepackage[paperwidth=10.2cm, paperheight=14.65cm, margin=0cm]{geometry}
+\usepackage{psgo}
+
+\begin{document}
+	\setgounit{0.4cm} 
+	
+\parbox[c][14.65cm][c]{10.2cm}{
+	\centering
+		
+	
+	\begin{psgopartialboard}{(1,1)(9,9)}
+		\stone{black}{d}{4}
+		\stone{white}{c}{3}
+		\pass
+		\pass*
+		\move{d}{3}
+		\move{c}{4}
+		\move{c}{5}
+		\move{b}{5}
+		\move{c}{6}
+		\move{b}{6}
+		\move{c}{7}
+		\move{b}{7}
+		\move{c}{8}
+	\end{psgopartialboard}
+	
+	\vspace{1em}
+	Blanc peut tenuki, la situation est stabilisée. La situation est symétrique en fonction du choix de noir de jouer le premier coup en D3 ou en C4. Noir choisit l'orientation en fonction de ce qu'il l'arrange. 
+
+	\smallskip
+
+	Avant l'émergence de l'IA, le coup 8 de blanc ne consistait pas à pousser sur la deuxième ligne : 	
+	
+	\begin{psgopartialboard}{(1,1)(9,9)}
+		\stone{black}{d}{4}
+		\stone{white}{c}{3}
+		\pass
+		\pass*
+		\stone[\small$\mathsf{1}$]{black}{d}{3}
+		\stone[\small$\mathsf{2}$]{white}{c}{4}
+		\stone[\small$\mathsf{3}$]{black}{c}{5}
+		\stone[\small$\mathsf{4}$]{white}{b}{5}
+		\stone[\small$\mathsf{5}$]{black}{c}{6}
+		\stone[\small$\mathsf{6}$]{white}{b}{6}
+		\stone[\small$\mathsf{7}$]{black}{c}{7}
+		\stone[\small$\mathsf{8}$]{white}{d}{2}
+		\stone[\small$\mathsf{9}$]{black}{e}{2}
+		\stone[\small$\mathsf{10}$]{white}{c}{2}
+		\stone[\small$\mathsf{11}$]{black}{f}{3}
+		\markpos{\marktr}{e}{5}
+	\end{psgopartialboard}
+
+	Au terme de cette séquence, blanc peut tenuki. Noir possède une bonne influence mais il persiste un point de coupe en $\triangle$.
+}
+
+\end{document}
